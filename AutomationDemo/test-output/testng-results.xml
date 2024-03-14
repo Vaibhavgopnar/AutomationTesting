@@ -1,0 +1,1687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="3" total="57" passed="44" failed="5" skipped="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Method Name :- titletest]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a>]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test2]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- launchApp]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- launchApp]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- launchApp]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- launchApp]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a>]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- reporttest1]]>
+    </line>
+    <line>
+      <![CDATA[This is Test 1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- reporttest2]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- reporttest3]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- reporttest4]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- titletest]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a>]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test3]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a>]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test4]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test2]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- skipTest2]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- skipTest3]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- skipTest4]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test3]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test4]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test2]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- UserResistration]]>
+    </line>
+    <line>
+      <![CDATA[This is Test 1]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a>]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- UserSearch]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- reporttest3]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- reporttest4]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- logouttest]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- logintest]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test3]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test4]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test2]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+    <line>
+      <![CDATA[Method Name :- test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is : -1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-29T15:17:52 IST" name="Suite" finished-at="2023-09-29T15:19:28 IST" duration-ms="95954">
+    <groups>
+      <group name="Regression">
+        <method signature="Before_After_Class_Group.test3()[pri:0, instance:testNGcase.Before_After_Class_Group@3d34d211]" name="test3" class="testNGcase.Before_After_Class_Group"/>
+        <method signature="Before_After_Class_Group.test1()[pri:1, instance:testNGcase.Before_After_Class_Group@3d34d211]" name="test1" class="testNGcase.Before_After_Class_Group"/>
+        <method signature="Before_After_Class_Group.test2()[pri:2, instance:testNGcase.Before_After_Class_Group@3d34d211]" name="test2" class="testNGcase.Before_After_Class_Group"/>
+        <method signature="Before_After_Suite.test3()[pri:0, instance:testNGcase.Before_After_Suite@6200f9cb]" name="test3" class="testNGcase.Before_After_Suite"/>
+        <method signature="GroupByTests.test3()[pri:0, instance:testNGcase.GroupByTests@7c9d8e2]" name="test3" class="testNGcase.GroupByTests"/>
+        <method signature="Before_After_Suite.test1()[pri:1, instance:testNGcase.Before_After_Suite@6200f9cb]" name="test1" class="testNGcase.Before_After_Suite"/>
+        <method signature="GroupByTests.test1()[pri:1, instance:testNGcase.GroupByTests@7c9d8e2]" name="test1" class="testNGcase.GroupByTests"/>
+        <method signature="Before_After_Suite.test2()[pri:2, instance:testNGcase.Before_After_Suite@6200f9cb]" name="test2" class="testNGcase.Before_After_Suite"/>
+        <method signature="GroupByTests.test2()[pri:2, instance:testNGcase.GroupByTests@7c9d8e2]" name="test2" class="testNGcase.GroupByTests"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Before_After_Class_Group.test3()[pri:0, instance:testNGcase.Before_After_Class_Group@3d34d211]" name="test3" class="testNGcase.Before_After_Class_Group"/>
+        <method signature="Before_After_Class_Group.test4()[pri:0, instance:testNGcase.Before_After_Class_Group@3d34d211]" name="test4" class="testNGcase.Before_After_Class_Group"/>
+        <method signature="Before_After_Suite.test3()[pri:0, instance:testNGcase.Before_After_Suite@6200f9cb]" name="test3" class="testNGcase.Before_After_Suite"/>
+        <method signature="Before_After_Suite.test4()[pri:0, instance:testNGcase.Before_After_Suite@6200f9cb]" name="test4" class="testNGcase.Before_After_Suite"/>
+        <method signature="GroupByTests.test3()[pri:0, instance:testNGcase.GroupByTests@7c9d8e2]" name="test3" class="testNGcase.GroupByTests"/>
+        <method signature="GroupByTests.test4()[pri:0, instance:testNGcase.GroupByTests@7c9d8e2]" name="test4" class="testNGcase.GroupByTests"/>
+      </group> <!-- Smoke -->
+      <group name="User Authentication">
+        <method signature="GroupByTests.test3()[pri:0, instance:testNGcase.GroupByTests@7c9d8e2]" name="test3" class="testNGcase.GroupByTests"/>
+        <method signature="GroupByTests.test4()[pri:0, instance:testNGcase.GroupByTests@7c9d8e2]" name="test4" class="testNGcase.GroupByTests"/>
+        <method signature="GroupByTests.test1()[pri:1, instance:testNGcase.GroupByTests@7c9d8e2]" name="test1" class="testNGcase.GroupByTests"/>
+        <method signature="GroupByTests.test2()[pri:2, instance:testNGcase.GroupByTests@7c9d8e2]" name="test2" class="testNGcase.GroupByTests"/>
+      </group> <!-- User Authentication -->
+    </groups>
+    <test started-at="2023-09-29T15:17:52 IST" name="Test" finished-at="2023-09-29T15:19:28 IST" duration-ms="95954">
+      <class name="testNGcase.Before_After_Class_Group">
+        <test-method is-config="true" signature="beforegroup()[pri:0, instance:testNGcase.Before_After_Class_Group@3d34d211]" started-at="2023-09-29T15:19:27 IST" name="beforegroup" finished-at="2023-09-29T15:19:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforegroup -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testNGcase.Before_After_Class_Group@3d34d211]" started-at="2023-09-29T15:19:28 IST" name="beforeclass" finished-at="2023-09-29T15:19:28 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="test3()[pri:0, instance:testNGcase.Before_After_Class_Group@3d34d211]" started-at="2023-09-29T15:19:28 IST" name="test3" finished-at="2023-09-29T15:19:28 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test3]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:testNGcase.Before_After_Class_Group@3d34d211]" started-at="2023-09-29T15:19:28 IST" name="test4" finished-at="2023-09-29T15:19:28 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test4]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test1()[pri:1, instance:testNGcase.Before_After_Class_Group@3d34d211]" started-at="2023-09-29T15:19:28 IST" name="test1" finished-at="2023-09-29T15:19:28 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:testNGcase.Before_After_Class_Group@3d34d211]" started-at="2023-09-29T15:19:28 IST" name="test2" finished-at="2023-09-29T15:19:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test2]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="aftergroup()[pri:0, instance:testNGcase.Before_After_Class_Group@3d34d211]" started-at="2023-09-29T15:19:28 IST" name="aftergroup" finished-at="2023-09-29T15:19:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftergroup -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testNGcase.Before_After_Class_Group@3d34d211]" started-at="2023-09-29T15:19:28 IST" name="afterclass" finished-at="2023-09-29T15:19:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- testNGcase.Before_After_Class_Group -->
+      <class name="testNGcase.GroupByTests">
+        <test-method signature="test3()[pri:0, instance:testNGcase.GroupByTests@7c9d8e2]" started-at="2023-09-29T15:19:27 IST" name="test3" finished-at="2023-09-29T15:19:27 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testNGcase.GroupByTests.test3(GroupByTests.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test3]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:testNGcase.GroupByTests@7c9d8e2]" started-at="2023-09-29T15:19:27 IST" name="test4" finished-at="2023-09-29T15:19:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test4]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test1()[pri:1, instance:testNGcase.GroupByTests@7c9d8e2]" started-at="2023-09-29T15:19:27 IST" name="test1" finished-at="2023-09-29T15:19:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:testNGcase.GroupByTests@7c9d8e2]" started-at="2023-09-29T15:19:27 IST" name="test2" finished-at="2023-09-29T15:19:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test2]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- testNGcase.GroupByTests -->
+      <class name="testNGcase.ReportsTest">
+        <test-method signature="reporttest1()[pri:0, instance:testNGcase.ReportsTest@2df3b89c]" started-at="2023-09-29T15:18:11 IST" name="reporttest1" finished-at="2023-09-29T15:18:44 IST" duration-ms="32872" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- reporttest1]]>
+            </line>
+            <line>
+              <![CDATA[This is Test 1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporttest1 -->
+        <test-method signature="reporttest2()[pri:0, instance:testNGcase.ReportsTest@2df3b89c]" started-at="2023-09-29T15:18:44 IST" name="reporttest2" finished-at="2023-09-29T15:18:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- reporttest2]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporttest2 -->
+        <test-method signature="reporttest3()[pri:0, instance:testNGcase.ReportsTest@2df3b89c]" started-at="2023-09-29T15:18:44 IST" name="reporttest3" finished-at="2023-09-29T15:18:44 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- reporttest3]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporttest3 -->
+        <test-method signature="reporttest4()[pri:0, instance:testNGcase.ReportsTest@2df3b89c]" started-at="2023-09-29T15:18:44 IST" name="reporttest4" finished-at="2023-09-29T15:18:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- reporttest4]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporttest4 -->
+      </class> <!-- testNGcase.ReportsTest -->
+      <class name="testNGcase.DataProviderDemo">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderDemo@4009e306]" started-at="2023-09-29T15:19:28 IST" name="test" data-provider="datatest" finished-at="2023-09-29T15:19:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderDemo@4009e306]" started-at="2023-09-29T15:19:28 IST" name="test" data-provider="datatest" finished-at="2023-09-29T15:19:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderDemo@4009e306]" started-at="2023-09-29T15:19:28 IST" name="test" data-provider="datatest" finished-at="2023-09-29T15:19:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderDemo@4009e306]" started-at="2023-09-29T15:19:28 IST" name="test" data-provider="datatest" finished-at="2023-09-29T15:19:28 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderDemo@4009e306]" started-at="2023-09-29T15:19:28 IST" name="test1" data-provider="datatest1" finished-at="2023-09-29T15:19:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderDemo@4009e306]" started-at="2023-09-29T15:19:28 IST" name="test1" data-provider="datatest1" finished-at="2023-09-29T15:19:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderDemo@4009e306]" started-at="2023-09-29T15:19:28 IST" name="test1" data-provider="datatest1" finished-at="2023-09-29T15:19:28 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderDemo@4009e306]" started-at="2023-09-29T15:19:28 IST" name="test1" data-provider="datatest1" finished-at="2023-09-29T15:19:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderDemo@4009e306]" started-at="2023-09-29T15:19:28 IST" name="test1" data-provider="datatest1" finished-at="2023-09-29T15:19:28 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testNGcase.DataProviderDemo -->
+      <class name="testNGcase.Before_After_Suite">
+        <test-method is-config="true" signature="datasetup()[pri:0, instance:testNGcase.Before_After_Suite@6200f9cb]" started-at="2023-09-29T15:17:52 IST" name="datasetup" finished-at="2023-09-29T15:17:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datasetup -->
+        <test-method signature="test3()[pri:0, instance:testNGcase.Before_After_Suite@6200f9cb]" started-at="2023-09-29T15:19:27 IST" name="test3" finished-at="2023-09-29T15:19:27 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test3]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:testNGcase.Before_After_Suite@6200f9cb]" started-at="2023-09-29T15:19:27 IST" name="test4" finished-at="2023-09-29T15:19:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test4]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test1()[pri:1, instance:testNGcase.Before_After_Suite@6200f9cb]" started-at="2023-09-29T15:19:27 IST" name="test1" finished-at="2023-09-29T15:19:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:testNGcase.Before_After_Suite@6200f9cb]" started-at="2023-09-29T15:19:27 IST" name="test2" finished-at="2023-09-29T15:19:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test2]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="dataTearDpwn()[pri:0, instance:testNGcase.Before_After_Suite@6200f9cb]" started-at="2023-09-29T15:19:28 IST" name="dataTearDpwn" finished-at="2023-09-29T15:19:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataTearDpwn -->
+      </class> <!-- testNGcase.Before_After_Suite -->
+      <class name="testNGcase.Assertion_VeryfyTitleTest">
+        <test-method signature="titletest()[pri:0, instance:testNGcase.Assertion_VeryfyTitleTest@74e52ef6]" started-at="2023-09-29T15:17:52 IST" name="titletest" finished-at="2023-09-29T15:17:57 IST" duration-ms="4535" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[no such execution context
+  (Session info: chrome=117.0.5938.132)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54c76ed21b22183bdcee499ae9044cc3, get {url=https://www.ebay.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\gopna\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53819/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54c76ed21b22183bdcee499ae9044cc3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: no such execution context
+  (Session info: chrome=117.0.5938.132)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54c76ed21b22183bdcee499ae9044cc3, get {url=https://www.ebay.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\gopna\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53819/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54c76ed21b22183bdcee499ae9044cc3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+at testNGcase.Assertion_VeryfyTitleTest.titletest(Assertion_VeryfyTitleTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- titletest]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- titletest -->
+      </class> <!-- testNGcase.Assertion_VeryfyTitleTest -->
+      <class name="testNGcase.Before_After_Method_Test">
+        <test-method is-config="true" signature="logintoapp()[pri:0, instance:testNGcase.Before_After_Method_Test@77f1baf5]" started-at="2023-09-29T15:17:52 IST" name="logintoapp" finished-at="2023-09-29T15:17:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapp -->
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:testNGcase.Before_After_Method_Test@77f1baf5]" started-at="2023-09-29T15:17:57 IST" name="connectDB" finished-at="2023-09-29T15:17:57 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method signature="test1()[pri:1, instance:testNGcase.Before_After_Method_Test@77f1baf5]" started-at="2023-09-29T15:17:57 IST" name="test1" description="This is login Test" finished-at="2023-09-29T15:17:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="disconnectDB()[pri:0, instance:testNGcase.Before_After_Method_Test@77f1baf5]" started-at="2023-09-29T15:17:57 IST" name="disconnectDB" finished-at="2023-09-29T15:17:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDB -->
+        <test-method signature="test2()[pri:2, instance:testNGcase.Before_After_Method_Test@77f1baf5]" started-at="2023-09-29T15:17:57 IST" name="test2" description="This is logout Test" finished-at="2023-09-29T15:17:57 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test2]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:testNGcase.Before_After_Method_Test@77f1baf5]" started-at="2023-09-29T15:17:57 IST" name="connectDB" finished-at="2023-09-29T15:17:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method is-config="true" signature="disconnectDB()[pri:0, instance:testNGcase.Before_After_Method_Test@77f1baf5]" started-at="2023-09-29T15:17:57 IST" name="disconnectDB" finished-at="2023-09-29T15:17:57 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDB -->
+        <test-method is-config="true" signature="logoutapp()[pri:0, instance:testNGcase.Before_After_Method_Test@77f1baf5]" started-at="2023-09-29T15:19:28 IST" name="logoutapp" finished-at="2023-09-29T15:19:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutapp -->
+      </class> <!-- testNGcase.Before_After_Method_Test -->
+      <class name="testNGcase.ListenerDemoTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testNGcase.ListenerDemoTest@38afe297]" started-at="2023-09-29T15:17:45 IST" name="launchBrowser" finished-at="2023-09-29T15:17:52 IST" duration-ms="7047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method retried="true" signature="launchApp()[pri:0, instance:testNGcase.ListenerDemoTest@38afe297]" started-at="2023-09-29T15:17:57 IST" name="launchApp" finished-at="2023-09-29T15:18:04 IST" duration-ms="6377" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testNGcase.ListenerDemoTest.launchApp(ListenerDemoTest.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- launchApp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method retried="true" signature="launchApp()[pri:0, instance:testNGcase.ListenerDemoTest@38afe297]" started-at="2023-09-29T15:18:04 IST" name="launchApp" finished-at="2023-09-29T15:18:06 IST" duration-ms="1989" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testNGcase.ListenerDemoTest.launchApp(ListenerDemoTest.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- launchApp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method retried="true" signature="launchApp()[pri:0, instance:testNGcase.ListenerDemoTest@38afe297]" started-at="2023-09-29T15:18:06 IST" name="launchApp" finished-at="2023-09-29T15:18:08 IST" duration-ms="2106" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testNGcase.ListenerDemoTest.launchApp(ListenerDemoTest.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- launchApp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="launchApp()[pri:0, instance:testNGcase.ListenerDemoTest@38afe297]" started-at="2023-09-29T15:18:08 IST" name="launchApp" finished-at="2023-09-29T15:18:11 IST" duration-ms="3136" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testNGcase.ListenerDemoTest.launchApp(ListenerDemoTest.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- launchApp]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testNGcase.ListenerDemoTest@38afe297]" started-at="2023-09-29T15:19:28 IST" name="closingBrowser" finished-at="2023-09-29T15:19:28 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- testNGcase.ListenerDemoTest -->
+      <class name="testNGcase.DataProviderToFiles">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderToFiles@7dc0f706]" started-at="2023-09-29T15:19:28 IST" name="test" data-provider="create" finished-at="2023-09-29T15:19:28 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderToFiles@7dc0f706]" started-at="2023-09-29T15:19:28 IST" name="test" data-provider="create" finished-at="2023-09-29T15:19:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderToFiles@7dc0f706]" started-at="2023-09-29T15:19:28 IST" name="test" data-provider="create" finished-at="2023-09-29T15:19:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderToFiles@7dc0f706]" started-at="2023-09-29T15:19:28 IST" name="test" data-provider="create" finished-at="2023-09-29T15:19:28 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderToFiles@7dc0f706]" started-at="2023-09-29T15:19:28 IST" name="test1" data-provider="create" finished-at="2023-09-29T15:19:28 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderToFiles@7dc0f706]" started-at="2023-09-29T15:19:28 IST" name="test1" data-provider="create" finished-at="2023-09-29T15:19:28 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderToFiles@7dc0f706]" started-at="2023-09-29T15:19:28 IST" name="test1" data-provider="create" finished-at="2023-09-29T15:19:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderToFiles@7dc0f706]" started-at="2023-09-29T15:19:28 IST" name="test1" data-provider="create" finished-at="2023-09-29T15:19:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testNGcase.DataProviderToFiles -->
+      <class name="testNGcase.Assertion_Soft_Hard">
+        <test-method signature="titletest()[pri:0, instance:testNGcase.Assertion_Soft_Hard@23348b5d]" started-at="2023-09-29T15:18:44 IST" name="titletest" finished-at="2023-09-29T15:18:57 IST" duration-ms="12735" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Electronics,  Cars, Fashion, Collectibles & More | eBay] but found [Electronics, Cars, Fashion, Collectibles & More | eBay]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Electronics,  Cars, Fashion, Collectibles & More | eBay] but found [Electronics, Cars, Fashion, Collectibles & More | eBay]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testNGcase.Assertion_Soft_Hard.titletest(Assertion_Soft_Hard.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- titletest]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- titletest -->
+      </class> <!-- testNGcase.Assertion_Soft_Hard -->
+      <class name="testNGcase.SkipTest">
+        <test-method signature="skipTest2()[pri:0, instance:testNGcase.SkipTest@20d525]" started-at="2023-09-29T15:19:27 IST" name="skipTest2" finished-at="2023-09-29T15:19:27 IST" duration-ms="4" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping this test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping this test
+at testNGcase.SkipTest.skipTest2(SkipTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- skipTest2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skipTest2 -->
+        <test-method signature="skipTest3()[pri:0, instance:testNGcase.SkipTest@20d525]" started-at="2023-09-29T15:19:27 IST" name="skipTest3" finished-at="2023-09-29T15:19:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- skipTest3]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skipTest3 -->
+        <test-method signature="skipTest4()[pri:0, instance:testNGcase.SkipTest@20d525]" started-at="2023-09-29T15:19:27 IST" name="skipTest4" finished-at="2023-09-29T15:19:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- skipTest4]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skipTest4 -->
+      </class> <!-- testNGcase.SkipTest -->
+      <class name="testNGcase.DataProviderDemo1">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderDemo1@70325e14]" started-at="2023-09-29T15:18:57 IST" name="test" data-provider="create" finished-at="2023-09-29T15:19:04 IST" duration-ms="6821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderDemo1@70325e14]" started-at="2023-09-29T15:19:04 IST" name="test" data-provider="create" finished-at="2023-09-29T15:19:10 IST" duration-ms="5849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderDemo1@70325e14]" started-at="2023-09-29T15:19:10 IST" name="test" data-provider="create" finished-at="2023-09-29T15:19:16 IST" duration-ms="6483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:testNGcase.DataProviderDemo1@70325e14]" started-at="2023-09-29T15:19:16 IST" name="test" data-provider="create" finished-at="2023-09-29T15:19:27 IST" duration-ms="10454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- test]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testNGcase.DataProviderDemo1 -->
+      <class name="testNGcase.LoginTest">
+        <test-method signature="logouttest()[pri:1, instance:testNGcase.LoginTest@ae13544]" started-at="2023-09-29T15:19:28 IST" name="logouttest" description="This is logout Test" finished-at="2023-09-29T15:19:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- logouttest]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+        <test-method signature="logintest()[pri:2, instance:testNGcase.LoginTest@ae13544]" started-at="2023-09-29T15:19:28 IST" name="logintest" description="This is login Test" finished-at="2023-09-29T15:19:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- logintest]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- testNGcase.LoginTest -->
+      <class name="testNGcase.DependecyTest">
+        <test-method signature="UserResistration()[pri:0, instance:testNGcase.DependecyTest@6f4a47c7]" started-at="2023-09-29T15:19:27 IST" name="UserResistration" finished-at="2023-09-29T15:19:27 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testNGcase.DependecyTest.UserResistration(DependecyTest.java:13)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- UserResistration]]>
+            </line>
+            <line>
+              <![CDATA[This is Test 1]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UserResistration -->
+        <test-method signature="UserSearch()[pri:0, instance:testNGcase.DependecyTest@6f4a47c7]" started-at="2023-09-29T15:19:28 IST" name="UserSearch" finished-at="2023-09-29T15:19:28 IST" depends-on-methods="testNGcase.DependecyTest.UserResistration" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testNGcase.DependecyTest.UserSearch() on instance testNGcase.DependecyTest@6f4a47c7 depends on not successfully finished methods 
+[testNGcase.DependecyTest.UserResistration() on instance testNGcase.DependecyTest@6f4a47c7]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testNGcase.DependecyTest.UserSearch() on instance testNGcase.DependecyTest@6f4a47c7 depends on not successfully finished methods 
+[testNGcase.DependecyTest.UserResistration() on instance testNGcase.DependecyTest@6f4a47c7]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserSearch -->
+        <test-method signature="reporttest3()[pri:0, instance:testNGcase.DependecyTest@6f4a47c7]" started-at="2023-09-29T15:19:28 IST" name="reporttest3" finished-at="2023-09-29T15:19:28 IST" depends-on-methods="testNGcase.DependecyTest.UserResistration" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- reporttest3]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporttest3 -->
+        <test-method signature="reporttest4()[pri:0, instance:testNGcase.DependecyTest@6f4a47c7]" started-at="2023-09-29T15:19:28 IST" name="reporttest4" finished-at="2023-09-29T15:19:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Name :- reporttest4]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is : -1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporttest4 -->
+      </class> <!-- testNGcase.DependecyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

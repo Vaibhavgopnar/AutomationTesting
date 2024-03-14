@@ -1,0 +1,1184 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>44/5/5</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 29 15:17:52 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>95 seconds (95954 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNGcase.Assertion_VeryfyTitleTest.titletest()'><b>titletest</b><br>Test class: testNGcase.Assertion_VeryfyTitleTest<br/>
+<a href="#Output-754592847" onClick='toggleBox("Output-754592847", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-754592847" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-754592847">
+Method Name :- titletest<br/>
+<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: no such execution context
+  (Session info: chrome=117.0.5938.132)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54c76ed21b22183bdcee499ae9044cc3, get {url=https://www.ebay.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\gopna\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53819/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54c76ed21b22183bdcee499ae9044cc3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at testNGcase.Assertion_VeryfyTitleTest.titletest(Assertion_VeryfyTitleTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace754592847", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace754592847'><pre>org.openqa.selenium.WebDriverException: no such execution context
+  (Session info: chrome=117.0.5938.132)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54c76ed21b22183bdcee499ae9044cc3, get {url=https://www.ebay.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\gopna\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53819/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54c76ed21b22183bdcee499ae9044cc3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at testNGcase.Assertion_VeryfyTitleTest.titletest(Assertion_VeryfyTitleTest.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>testNGcase.Assertion_VeryfyTitleTest@74e52ef6</td></tr>
+<tr>
+<td title='testNGcase.Assertion_Soft_Hard.titletest()'><b>titletest</b><br>Test class: testNGcase.Assertion_Soft_Hard<br/>
+<a href="#Output-520830206" onClick='toggleBox("Output-520830206", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-520830206" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-520830206">
+Method Name :- titletest<br/>
+<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Electronics,  Cars, Fashion, Collectibles &amp; More | eBay] but found [Electronics, Cars, Fashion, Collectibles &amp; More | eBay]
+	at testNGcase.Assertion_Soft_Hard.titletest(Assertion_Soft_Hard.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace520830206", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace520830206'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Electronics,  Cars, Fashion, Collectibles &amp; More | eBay] but found [Electronics, Cars, Fashion, Collectibles &amp; More | eBay]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at testNGcase.Assertion_Soft_Hard.titletest(Assertion_Soft_Hard.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>12</td>
+<td>testNGcase.Assertion_Soft_Hard@23348b5d</td></tr>
+<tr>
+<td title='testNGcase.DependecyTest.UserResistration()'><b>UserResistration</b><br>Test class: testNGcase.DependecyTest<br/>
+<a href="#Output-1917513667" onClick='toggleBox("Output-1917513667", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1917513667" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1917513667">
+Method Name :- UserResistration<br/>
+This is Test 1<br/>
+<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testNGcase.DependecyTest.UserResistration(DependecyTest.java:13)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1917513667", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1917513667'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testNGcase.DependecyTest.UserResistration(DependecyTest.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testNGcase.DependecyTest@6f4a47c7</td></tr>
+<tr>
+<td title='testNGcase.ListenerDemoTest.launchApp()'><b>launchApp</b><br>Test class: testNGcase.ListenerDemoTest<br/>
+<a href="#Output-771642661" onClick='toggleBox("Output-771642661", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-771642661" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-771642661">
+Method Name :- launchApp<br/>
+<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testNGcase.ListenerDemoTest.launchApp(ListenerDemoTest.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace771642661", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace771642661'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testNGcase.ListenerDemoTest.launchApp(ListenerDemoTest.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>testNGcase.ListenerDemoTest@38afe297</td></tr>
+<tr>
+<td title='testNGcase.GroupByTests.test3()'><b>test3</b><br>Test class: testNGcase.GroupByTests<br/>
+<a href="#Output-1964697764" onClick='toggleBox("Output-1964697764", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1964697764" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1964697764">
+Method Name :- test3<br/>
+<a href="C:\java files\SeleniumTraining\screenshot\Tue-Apr-12-20-45-24-IST-2022.png">Test Results</a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testNGcase.GroupByTests.test3(GroupByTests.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1964697764", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1964697764'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testNGcase.GroupByTests.test3(GroupByTests.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testNGcase.GroupByTests@7c9d8e2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNGcase.GroupByTests.test4()'><b>test4</b><br>Test class: testNGcase.GroupByTests<br/>
+<a href="#Output-836449498" onClick='toggleBox("Output-836449498", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-836449498" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-836449498">
+Method Name :- test4<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.GroupByTests@7c9d8e2</td></tr>
+<tr>
+<td title='testNGcase.DataProviderDemo1.test()'><b>test</b><br>Test class: testNGcase.DataProviderDemo1<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-621432843" onClick='toggleBox("Output-621432843", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-621432843" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-621432843">
+Method Name :- test<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>testNGcase.DataProviderDemo1@70325e14</td></tr>
+<tr>
+<td title='testNGcase.Before_After_Class_Group.test3()'><b>test3</b><br>Test class: testNGcase.Before_After_Class_Group<br/>
+<a href="#Output-2133668271" onClick='toggleBox("Output-2133668271", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2133668271" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2133668271">
+Method Name :- test3<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.Before_After_Class_Group@3d34d211</td></tr>
+<tr>
+<td title='testNGcase.Before_After_Suite.test2()'><b>test2</b><br>Test class: testNGcase.Before_After_Suite<br/>
+<a href="#Output-1060512053" onClick='toggleBox("Output-1060512053", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1060512053" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1060512053">
+Method Name :- test2<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.Before_After_Suite@6200f9cb</td></tr>
+<tr>
+<td title='testNGcase.DataProviderToFiles.test()'><b>test</b><br>Test class: testNGcase.DataProviderToFiles<br>Parameters: username3, password3<br/>
+<a href="#Output-1837602497" onClick='toggleBox("Output-1837602497", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1837602497" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1837602497">
+Method Name :- test<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderToFiles@7dc0f706</td></tr>
+<tr>
+<td title='testNGcase.DataProviderDemo.test()'><b>test</b><br>Test class: testNGcase.DataProviderDemo<br>Parameters: user2, pass2<br/>
+<a href="#Output-513128019" onClick='toggleBox("Output-513128019", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-513128019" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-513128019">
+Method Name :- test<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderDemo@4009e306</td></tr>
+<tr>
+<td title='testNGcase.LoginTest.logintest()'><b>logintest</b><br>Test class: testNGcase.LoginTest<br>Test method: This is login Test<br/>
+<a href="#Output-619621481" onClick='toggleBox("Output-619621481", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-619621481" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-619621481">
+Method Name :- logintest<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.LoginTest@ae13544</td></tr>
+<tr>
+<td title='testNGcase.DependecyTest.reporttest4()'><b>reporttest4</b><br>Test class: testNGcase.DependecyTest<br/>
+<a href="#Output-1831478624" onClick='toggleBox("Output-1831478624", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1831478624" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1831478624">
+Method Name :- reporttest4<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DependecyTest@6f4a47c7</td></tr>
+<tr>
+<td title='testNGcase.DataProviderToFiles.test1()'><b>test1</b><br>Test class: testNGcase.DataProviderToFiles<br>Parameters: username3, password3, test3<br/>
+<a href="#Output-2099348779" onClick='toggleBox("Output-2099348779", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2099348779" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2099348779">
+Method Name :- test1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderToFiles@7dc0f706</td></tr>
+<tr>
+<td title='testNGcase.DataProviderDemo.test1()'><b>test1</b><br>Test class: testNGcase.DataProviderDemo<br>Parameters: username, password, test<br/>
+<a href="#Output-42338572" onClick='toggleBox("Output-42338572", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-42338572" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-42338572">
+Method Name :- test1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderDemo@4009e306</td></tr>
+<tr>
+<td title='testNGcase.Before_After_Suite.test4()'><b>test4</b><br>Test class: testNGcase.Before_After_Suite<br/>
+<a href="#Output-218688965" onClick='toggleBox("Output-218688965", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-218688965" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-218688965">
+Method Name :- test4<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.Before_After_Suite@6200f9cb</td></tr>
+<tr>
+<td title='testNGcase.Before_After_Class_Group.test2()'><b>test2</b><br>Test class: testNGcase.Before_After_Class_Group<br/>
+<a href="#Output-584694804" onClick='toggleBox("Output-584694804", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-584694804" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-584694804">
+Method Name :- test2<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.Before_After_Class_Group@3d34d211</td></tr>
+<tr>
+<td title='testNGcase.Before_After_Suite.test1()'><b>test1</b><br>Test class: testNGcase.Before_After_Suite<br/>
+<a href="#Output-1241128308" onClick='toggleBox("Output-1241128308", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1241128308" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1241128308">
+Method Name :- test1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.Before_After_Suite@6200f9cb</td></tr>
+<tr>
+<td title='testNGcase.DataProviderDemo.test()'><b>test</b><br>Test class: testNGcase.DataProviderDemo<br>Parameters: user1, pass1<br/>
+<a href="#Output-999211009" onClick='toggleBox("Output-999211009", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-999211009" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-999211009">
+Method Name :- test<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderDemo@4009e306</td></tr>
+<tr>
+<td title='testNGcase.LoginTest.logouttest()'><b>logouttest</b><br>Test class: testNGcase.LoginTest<br>Test method: This is logout Test<br/>
+<a href="#Output-58791184" onClick='toggleBox("Output-58791184", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-58791184" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-58791184">
+Method Name :- logouttest<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.LoginTest@ae13544</td></tr>
+<tr>
+<td title='testNGcase.DataProviderToFiles.test1()'><b>test1</b><br>Test class: testNGcase.DataProviderToFiles<br>Parameters: username, password, test<br/>
+<a href="#Output-48390515" onClick='toggleBox("Output-48390515", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-48390515" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-48390515">
+Method Name :- test1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderToFiles@7dc0f706</td></tr>
+<tr>
+<td title='testNGcase.SkipTest.skipTest4()'><b>skipTest4</b><br>Test class: testNGcase.SkipTest<br/>
+<a href="#Output-592248663" onClick='toggleBox("Output-592248663", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-592248663" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-592248663">
+Method Name :- skipTest4<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.SkipTest@20d525</td></tr>
+<tr>
+<td title='testNGcase.DataProviderDemo.test()'><b>test</b><br>Test class: testNGcase.DataProviderDemo<br>Parameters: user3, pass3<br/>
+<a href="#Output-1869373559" onClick='toggleBox("Output-1869373559", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1869373559" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1869373559">
+Method Name :- test<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderDemo@4009e306</td></tr>
+<tr>
+<td title='testNGcase.DataProviderDemo.test1()'><b>test1</b><br>Test class: testNGcase.DataProviderDemo<br>Parameters: username2, password2, test2<br/>
+<a href="#Output-1039245740" onClick='toggleBox("Output-1039245740", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1039245740" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1039245740">
+Method Name :- test1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderDemo@4009e306</td></tr>
+<tr>
+<td title='testNGcase.Before_After_Suite.test3()'><b>test3</b><br>Test class: testNGcase.Before_After_Suite<br/>
+<a href="#Output-1271570837" onClick='toggleBox("Output-1271570837", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1271570837" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1271570837">
+Method Name :- test3<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.Before_After_Suite@6200f9cb</td></tr>
+<tr>
+<td title='testNGcase.ReportsTest.reporttest3()'><b>reporttest3</b><br>Test class: testNGcase.ReportsTest<br/>
+<a href="#Output-1463823265" onClick='toggleBox("Output-1463823265", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1463823265" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1463823265">
+Method Name :- reporttest3<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.ReportsTest@2df3b89c</td></tr>
+<tr>
+<td title='testNGcase.GroupByTests.test1()'><b>test1</b><br>Test class: testNGcase.GroupByTests<br/>
+<a href="#Output-278891646" onClick='toggleBox("Output-278891646", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-278891646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-278891646">
+Method Name :- test1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.GroupByTests@7c9d8e2</td></tr>
+<tr>
+<td title='testNGcase.SkipTest.skipTest3()'><b>skipTest3</b><br>Test class: testNGcase.SkipTest<br/>
+<a href="#Output-445350376" onClick='toggleBox("Output-445350376", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-445350376" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-445350376">
+Method Name :- skipTest3<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.SkipTest@20d525</td></tr>
+<tr>
+<td title='testNGcase.DataProviderDemo.test1()'><b>test1</b><br>Test class: testNGcase.DataProviderDemo<br>Parameters: username4, password4, test4<br/>
+<a href="#Output-1788662008" onClick='toggleBox("Output-1788662008", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1788662008" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1788662008">
+Method Name :- test1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderDemo@4009e306</td></tr>
+<tr>
+<td title='testNGcase.DataProviderToFiles.test()'><b>test</b><br>Test class: testNGcase.DataProviderToFiles<br>Parameters: username1, password1<br/>
+<a href="#Output-864210792" onClick='toggleBox("Output-864210792", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-864210792" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-864210792">
+Method Name :- test<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderToFiles@7dc0f706</td></tr>
+<tr>
+<td title='testNGcase.DataProviderDemo1.test()'><b>test</b><br>Test class: testNGcase.DataProviderDemo1<br>Parameters: problem_user, secret_sauce<br/>
+<a href="#Output-1773117761" onClick='toggleBox("Output-1773117761", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1773117761" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1773117761">
+Method Name :- test<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>testNGcase.DataProviderDemo1@70325e14</td></tr>
+<tr>
+<td title='testNGcase.DependecyTest.reporttest3()'><b>reporttest3</b><br>Test class: testNGcase.DependecyTest<br/>
+<a href="#Output-440902120" onClick='toggleBox("Output-440902120", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-440902120" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-440902120">
+Method Name :- reporttest3<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DependecyTest@6f4a47c7</td></tr>
+<tr>
+<td title='testNGcase.Before_After_Class_Group.test1()'><b>test1</b><br>Test class: testNGcase.Before_After_Class_Group<br/>
+<a href="#Output-709091500" onClick='toggleBox("Output-709091500", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-709091500" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-709091500">
+Method Name :- test1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.Before_After_Class_Group@3d34d211</td></tr>
+<tr>
+<td title='testNGcase.DataProviderDemo.test1()'><b>test1</b><br>Test class: testNGcase.DataProviderDemo<br>Parameters: username3, password3, test3<br/>
+<a href="#Output-1482714257" onClick='toggleBox("Output-1482714257", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1482714257" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1482714257">
+Method Name :- test1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderDemo@4009e306</td></tr>
+<tr>
+<td title='testNGcase.ReportsTest.reporttest2()'><b>reporttest2</b><br>Test class: testNGcase.ReportsTest<br/>
+<a href="#Output-1738784081" onClick='toggleBox("Output-1738784081", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1738784081" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1738784081">
+Method Name :- reporttest2<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.ReportsTest@2df3b89c</td></tr>
+<tr>
+<td title='testNGcase.ReportsTest.reporttest4()'><b>reporttest4</b><br>Test class: testNGcase.ReportsTest<br/>
+<a href="#Output-1452355939" onClick='toggleBox("Output-1452355939", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1452355939" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1452355939">
+Method Name :- reporttest4<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.ReportsTest@2df3b89c</td></tr>
+<tr>
+<td title='testNGcase.DataProviderDemo1.test()'><b>test</b><br>Test class: testNGcase.DataProviderDemo1<br>Parameters: performance_glitch_user, secret_sauce<br/>
+<a href="#Output-1849602253" onClick='toggleBox("Output-1849602253", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1849602253" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1849602253">
+Method Name :- test<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>testNGcase.DataProviderDemo1@70325e14</td></tr>
+<tr>
+<td title='testNGcase.DataProviderDemo.test1()'><b>test1</b><br>Test class: testNGcase.DataProviderDemo<br>Parameters: username1, password1, test1<br/>
+<a href="#Output-823263265" onClick='toggleBox("Output-823263265", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-823263265" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-823263265">
+Method Name :- test1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderDemo@4009e306</td></tr>
+<tr>
+<td title='testNGcase.Before_After_Method_Test.test1()'><b>test1</b><br>Test class: testNGcase.Before_After_Method_Test<br>Test method: This is login Test<br/>
+<a href="#Output-1538593345" onClick='toggleBox("Output-1538593345", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1538593345" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1538593345">
+Method Name :- test1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.Before_After_Method_Test@77f1baf5</td></tr>
+<tr>
+<td title='testNGcase.Before_After_Method_Test.test2()'><b>test2</b><br>Test class: testNGcase.Before_After_Method_Test<br>Test method: This is logout Test<br/>
+<a href="#Output-1960554990" onClick='toggleBox("Output-1960554990", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1960554990" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1960554990">
+Method Name :- test2<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.Before_After_Method_Test@77f1baf5</td></tr>
+<tr>
+<td title='testNGcase.Before_After_Class_Group.test4()'><b>test4</b><br>Test class: testNGcase.Before_After_Class_Group<br/>
+<a href="#Output-779179975" onClick='toggleBox("Output-779179975", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-779179975" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-779179975">
+Method Name :- test4<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.Before_After_Class_Group@3d34d211</td></tr>
+<tr>
+<td title='testNGcase.DataProviderToFiles.test1()'><b>test1</b><br>Test class: testNGcase.DataProviderToFiles<br>Parameters: username1, password1, test1<br/>
+<a href="#Output-666769352" onClick='toggleBox("Output-666769352", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-666769352" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-666769352">
+Method Name :- test1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderToFiles@7dc0f706</td></tr>
+<tr>
+<td title='testNGcase.DataProviderDemo.test()'><b>test</b><br>Test class: testNGcase.DataProviderDemo<br>Parameters: user4, pass4<br/>
+<a href="#Output-1338332733" onClick='toggleBox("Output-1338332733", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1338332733" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1338332733">
+Method Name :- test<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderDemo@4009e306</td></tr>
+<tr>
+<td title='testNGcase.DataProviderDemo1.test()'><b>test</b><br>Test class: testNGcase.DataProviderDemo1<br>Parameters: locked_out_user, secret_sauce<br/>
+<a href="#Output-553056396" onClick='toggleBox("Output-553056396", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-553056396" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-553056396">
+Method Name :- test<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>testNGcase.DataProviderDemo1@70325e14</td></tr>
+<tr>
+<td title='testNGcase.GroupByTests.test2()'><b>test2</b><br>Test class: testNGcase.GroupByTests<br/>
+<a href="#Output-1591398176" onClick='toggleBox("Output-1591398176", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1591398176" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1591398176">
+Method Name :- test2<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.GroupByTests@7c9d8e2</td></tr>
+<tr>
+<td title='testNGcase.ReportsTest.reporttest1()'><b>reporttest1</b><br>Test class: testNGcase.ReportsTest<br/>
+<a href="#Output-500660587" onClick='toggleBox("Output-500660587", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-500660587" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-500660587">
+Method Name :- reporttest1<br/>
+This is Test 1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>testNGcase.ReportsTest@2df3b89c</td></tr>
+<tr>
+<td title='testNGcase.DataProviderToFiles.test1()'><b>test1</b><br>Test class: testNGcase.DataProviderToFiles<br>Parameters: username2, password2, test2<br/>
+<a href="#Output-742473724" onClick='toggleBox("Output-742473724", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-742473724" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-742473724">
+Method Name :- test1<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderToFiles@7dc0f706</td></tr>
+<tr>
+<td title='testNGcase.DataProviderToFiles.test()'><b>test</b><br>Test class: testNGcase.DataProviderToFiles<br>Parameters: username, password<br/>
+<a href="#Output-67985650" onClick='toggleBox("Output-67985650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-67985650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-67985650">
+Method Name :- test<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderToFiles@7dc0f706</td></tr>
+<tr>
+<td title='testNGcase.DataProviderToFiles.test()'><b>test</b><br>Test class: testNGcase.DataProviderToFiles<br>Parameters: username2, password2<br/>
+<a href="#Output-796168203" onClick='toggleBox("Output-796168203", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-796168203" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-796168203">
+Method Name :- test<br/>
+Status of execution is : -1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNGcase.DataProviderToFiles@7dc0f706</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNGcase.SkipTest.skipTest2()'><b>skipTest2</b><br>Test class: testNGcase.SkipTest<br/>
+<a href="#Output-304148291" onClick='toggleBox("Output-304148291", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-304148291" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-304148291">
+Method Name :- skipTest2<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: skipping this test
+	at testNGcase.SkipTest.skipTest2(SkipTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace304148291", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace304148291'><pre>org.testng.SkipException: skipping this test
+	at testNGcase.SkipTest.skipTest2(SkipTest.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testNGcase.SkipTest@20d525</td></tr>
+<tr>
+<td title='testNGcase.DependecyTest.UserSearch()'><b>UserSearch</b><br>Test class: testNGcase.DependecyTest</td>
+<td><div><pre>java.lang.Throwable: Method testNGcase.DependecyTest.UserSearch() on instance testNGcase.DependecyTest@6f4a47c7 depends on not successfully finished methods 
+[testNGcase.DependecyTest.UserResistration() on instance testNGcase.DependecyTest@6f4a47c7]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1787913218", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1787913218'><pre>java.lang.Throwable: Method testNGcase.DependecyTest.UserSearch() on instance testNGcase.DependecyTest@6f4a47c7 depends on not successfully finished methods 
+[testNGcase.DependecyTest.UserResistration() on instance testNGcase.DependecyTest@6f4a47c7]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testNGcase.DependecyTest@6f4a47c7</td></tr>
+<tr>
+<td title='testNGcase.ListenerDemoTest.launchApp()'><b>launchApp</b><br>Test class: testNGcase.ListenerDemoTest<br/>
+<a href="#Output-747004588" onClick='toggleBox("Output-747004588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-747004588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-747004588">
+Method Name :- launchApp<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testNGcase.ListenerDemoTest.launchApp(ListenerDemoTest.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace747004588", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace747004588'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testNGcase.ListenerDemoTest.launchApp(ListenerDemoTest.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>testNGcase.ListenerDemoTest@38afe297</td></tr>
+<tr>
+<td title='testNGcase.ListenerDemoTest.launchApp()'><b>launchApp</b><br>Test class: testNGcase.ListenerDemoTest<br/>
+<a href="#Output-371156515" onClick='toggleBox("Output-371156515", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-371156515" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-371156515">
+Method Name :- launchApp<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testNGcase.ListenerDemoTest.launchApp(ListenerDemoTest.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace371156515", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace371156515'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testNGcase.ListenerDemoTest.launchApp(ListenerDemoTest.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>testNGcase.ListenerDemoTest@38afe297</td></tr>
+<tr>
+<td title='testNGcase.ListenerDemoTest.launchApp()'><b>launchApp</b><br>Test class: testNGcase.ListenerDemoTest<br/>
+<a href="#Output-1446238973" onClick='toggleBox("Output-1446238973", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1446238973" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1446238973">
+Method Name :- launchApp<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testNGcase.ListenerDemoTest.launchApp(ListenerDemoTest.java:12)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1446238973", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1446238973'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testNGcase.ListenerDemoTest.launchApp(ListenerDemoTest.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>testNGcase.ListenerDemoTest@38afe297</td></tr>
+</table><p>
+</body>
+</html>

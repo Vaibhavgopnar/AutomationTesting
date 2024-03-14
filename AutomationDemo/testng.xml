@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="testNGcase.ListenersDemo" />
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testNGcase.Assertion_VeryfyTitleTest" />
+			<class name="testNGcase.Before_After_Method_Test" />
+			<class name="testNGcase.ListenerDemoTest" />
+			<class name="testNGcase.ReportsTest" />
+			<class name="testNGcase.Assertion_Soft_Hard" />
+			<class name="testNGcase.DataProviderDemo1" />
+			<class name="testNGcase.GroupByTests" />
+			<class name="testNGcase.SkipTest" />
+			<class name="testNGcase.Before_After_Suite" />
+			<class name="testNGcase.DependecyTest" />
+			<class name="testNGcase.LoginTest" />
+			<class name="testNGcase.Before_After_Class_Group" />
+			<class name="testNGcase.DataProviderToFiles" />
+			<class name="testNGcase.DataProviderDemo" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

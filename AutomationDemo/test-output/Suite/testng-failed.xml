@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testNGcase.ListenersDemo"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testNGcase.GroupByTests">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- testNGcase.GroupByTests -->
+      <class name="testNGcase.Assertion_VeryfyTitleTest">
+        <methods>
+          <include name="titletest"/>
+        </methods>
+      </class> <!-- testNGcase.Assertion_VeryfyTitleTest -->
+      <class name="testNGcase.ListenerDemoTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closingBrowser"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- testNGcase.ListenerDemoTest -->
+      <class name="testNGcase.SkipTest">
+        <methods>
+          <include name="skipTest2"/>
+        </methods>
+      </class> <!-- testNGcase.SkipTest -->
+      <class name="testNGcase.Assertion_Soft_Hard">
+        <methods>
+          <include name="titletest"/>
+        </methods>
+      </class> <!-- testNGcase.Assertion_Soft_Hard -->
+      <class name="testNGcase.DependecyTest">
+        <methods>
+          <include name="UserSearch"/>
+          <include name="UserResistration"/>
+        </methods>
+      </class> <!-- testNGcase.DependecyTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
